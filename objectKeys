@@ -17,5 +17,6 @@ At ECMA-262, Chapter 11.2.1:
 Here, expression will be eveluated and converted to a string.
 
 obj = {}
-obj[0] = "first"  // convert 0 to '0', proved by let a = {'1': 'x', 1: 'y'} will return {1 : 'y'}
+obj[0] = "first"  // convert 0 to '0'
+a = {'1': 'x', 1: 'y'} // return {1 : 'y'}
 
