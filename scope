@@ -1,0 +1,11 @@
+In my own words:
+
+Lexical Scope:  every funciton definition starts a new lexical scope. 
+
+while/if blocks:  blocks does not start new scope. In newer Javascript version, you can use "let" keyword to start a new block scope.
+
+When a function is called, a new execution context is created. The execution is three steps:
+  1. The declaration of new variables, arguments, functions.
+  2. The execution of code.
+  3. The determination of "this" variable.
+
